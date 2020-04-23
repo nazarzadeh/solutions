@@ -8,8 +8,8 @@
 1. the application must be able to be run both on single thread and multi thread.
 
 ### Spec
-By leveraging of the Executors, the application can run both 
+1. By leveraging of the Executors, the application can run both 
 on single and multi thread.
-The EventBus class can has several subscribers and send the messages
+1. The EventBus class can has several subscribers and send the messages
 to different listeners. 
-It can be run from the command line.
+1. It can be run from the command line.

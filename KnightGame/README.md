@@ -12,6 +12,6 @@ The fight club should display the live info about the condition of the
 game and the players, and finally introduce the Great Winner. 
 
 ### Spec
-Generic Circular LinkedList used as the data structure.
-Also the FightClub class is generic and can accept different
-types of fighter.
+1. Generic Circular LinkedList used as the data structure.
+2. Also the FightClub class is generic and can accepts different
+types of fighters.
