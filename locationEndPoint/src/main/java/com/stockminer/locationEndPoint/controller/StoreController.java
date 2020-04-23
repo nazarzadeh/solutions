@@ -1,10 +1,9 @@
-package com.uberall.locationEndPoint.controller;
+package com.stockminer.locationEndPoint.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.uberall.locationEndPoint.model.Location;
-import com.uberall.locationEndPoint.model.StoreInfo;
-import com.uberall.locationEndPoint.util.WriteCsv;
-import org.springframework.http.ResponseEntity;
+import com.stockminer.locationEndPoint.model.Location;
+import com.stockminer.locationEndPoint.util.WriteCsv;
+import com.stockminer.locationEndPoint.model.StoreInfo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -33,7 +32,7 @@ public class StoreController {
                 "keywords",
                 "lat",
                 "lng"}
-                ,Location.class);
+                , Location.class);
     }
 
     /**

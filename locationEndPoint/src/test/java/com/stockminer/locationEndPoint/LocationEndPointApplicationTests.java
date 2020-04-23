@@ -1,4 +1,4 @@
-package com.uberall.locationEndPoint;
+package com.stockminer.locationEndPoint;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

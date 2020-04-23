@@ -1,16 +1,13 @@
-package com.uberall.locationEndPoint.util;
+package com.stockminer.locationEndPoint.util;
 
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
 import com.opencsv.exceptions.CsvException;
-import com.uberall.locationEndPoint.model.Location;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 public class WriteCsv{

@@ -1,5 +1,5 @@
 
-package com.uberall.locationEndPoint.model;
+package com.stockminer.locationEndPoint.model;
 
 import java.util.HashMap;
 import java.util.List;
