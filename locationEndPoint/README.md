@@ -16,6 +16,8 @@ There should be one endpoints but with different output type.
 * /storeInfo  Headers Accept text/csv
 
 ### Spec
+1. It's a Spring boot application.
+1. Lombok used for elimination of Getter/Setter.
 1. The WriteCsv class is Generic and it could create csv file from any given entity.
 
 
